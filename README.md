@@ -27,37 +27,32 @@ Insérez votre clé USB dans l'ordinateur.
 
 **How to Install Windows 11 on a Dell Inspiron 15 from a USB Flash Drive:**
 
-Download the Windows 11 ISO image:
+1- Download the Windows 11 ISO image:
+- Go to the official Microsoft website to download the Windows 11 ISO.
+- Create a bootable installation media with Rufus:
 
-Go to the official Microsoft website to download the Windows 11 ISO.
-Create a bootable installation media with Rufus:
-
-Insert your USB flash drive into the computer.
-Open Rufus (available for free on the Rufus website) and select the downloaded ISO file.
-In the Device section, choose your USB drive.
-Set the Partition scheme to GPT if your system is in UEFI mode, or MBR if in Legacy BIOS mode.
-Click Start to make the USB drive bootable.
-Enter the computer’s BIOS:
-
-Restart the computer and press F2 several times during startup to enter the BIOS.
-Configure the storage mode:
-
-In the BIOS, go to the Storage or SATA Configuration menu.
-Change the mode to AHCI or RAID depending on your system's requirements, then save the changes (usually by pressing F10).
-Change the boot order:
-
-In the BIOS, go to the Boot section.
-Make sure the USB drive is set as the first boot device (Boot Order) so that the computer boots from the USB drive.
-Save the changes and exit the BIOS.
-Start the Windows 11 installation:
-
-The computer will restart and boot from the USB drive. Follow the on-screen instructions to begin the Windows 11 installation.
-Select your language, keyboard, and region settings, then click Install Now.
-Enter the product key (or choose to enter it later) and follow the steps to select the partition where you want to install Windows.
-Complete the Windows installation:
-
-Once the installation is complete, Windows 11 will restart several times to finalize the setup.
-Configure the basic settings of Windows, sign in to your Microsoft account (optional), and complete the installation
+2- Insert your USB flash drive into the computer.
+- Open Rufus (available for free on the Rufus website) and select the downloaded ISO file.
+- In the Device section, choose your USB drive.
+- Set the Partition scheme to GPT if your system is in UEFI mode, or MBR if in Legacy BIOS mode.
+- Click Start to make the USB drive bootable.
+  
+3- Enter the computer’s BIOS:
+- Restart the computer and press F2 several times during startup to enter the BIOS.
+- Configure the storage mode:
+    - In the BIOS, go to the Storage or SATA Configuration menu.
+    - Change the mode to AHCI or RAID depending on your system's requirements, then save the changes (usually by pressing F10).
+- Change the boot order:
+    - In the BIOS, go to the Boot section.
+    - Make sure the USB drive is set as the first boot device (Boot Order) so that the computer boots from the USB drive.
+    - Save the changes and exit the BIOS.
+4- Start the Windows 11 installation:
+- The computer will restart and boot from the USB drive. Follow the on-screen instructions to begin the Windows 11 installation.
+- Select your language, keyboard, and region settings, then click Install Now.
+- Enter the product key (or choose to enter it later) and follow the steps to select the partition where you want to install Windows.
+-Complete the Windows installation:
+    Once the installation is complete, Windows 11 will restart several times to finalize the setup.
+    Configure the basic settings of Windows, sign in to your Microsoft account (optional), and complete the installation
 
  
 
